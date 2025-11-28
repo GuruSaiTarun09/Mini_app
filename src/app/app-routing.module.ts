@@ -26,6 +26,7 @@ import { VechicleDetailsComponent } from './vechicle-details/vechicle-details.co
 import { AuthGuard } from './auth.guard';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { CompanyDetailsComponent } from './company-details/company-details.component';
+import { ParentComponent } from './parent/parent.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -54,7 +55,8 @@ const routes: Routes = [
       { path:'vechicle-details/:id',component:VechicleDetailsComponent},
       { path:'edit-vehicle/:id',component:VechicleDetailsComponent},
       { path:'create-user',component:CreateUserComponent},
-      {path:'company-details',component:CompanyDetailsComponent}
+      {path:'company-details',component:CompanyDetailsComponent},
+      {path:'parent',component:ParentComponent}
     ]
   },
   { path: '', component: LoginComponent },

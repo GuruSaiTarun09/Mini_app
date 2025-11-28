@@ -1,0 +1,9 @@
+<p>parent works!</p>
+<input type="text" [(ngModel)]="count">
+
+<h1>hello</h1>
+<app-child [count]="count" (countChange)="updateCount($event)"></app-child>
+
+<!-- <button [disabled]="false" (click)="submit()">submmit</button> -->
+
+

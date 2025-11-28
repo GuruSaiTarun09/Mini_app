@@ -32,6 +32,8 @@ import { EditVehicleComponent } from './edit-vehicle/edit-vehicle.component';
 import { RouterModule } from '@angular/router';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { CompanyDetailsComponent } from './company-details/company-details.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +62,9 @@ import { CompanyDetailsComponent } from './company-details/company-details.compo
     VechicleDetailsComponent,
     EditVehicleComponent,
     CreateUserComponent,
-    CompanyDetailsComponent
+    CompanyDetailsComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
