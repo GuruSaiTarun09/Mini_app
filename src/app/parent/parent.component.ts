@@ -11,4 +11,7 @@ export class ParentComponent {
   updateCount(value:number){
     this.count =value;
   }
+  catchMessage(value:string){
+    console.log(value);
+  }
 }

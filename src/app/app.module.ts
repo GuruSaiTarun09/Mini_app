@@ -34,6 +34,8 @@ import { CreateUserComponent } from './create-user/create-user.component';
 import { CompanyDetailsComponent } from './company-details/company-details.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { TextareaComponent } from './textarea/textarea.component';
+import { HighlightComponent } from './highlight/highlight.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { ChildComponent } from './child/child.component';
     CreateUserComponent,
     CompanyDetailsComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    TextareaComponent,
+    HighlightComponent
   ],
   imports: [
     BrowserModule,
